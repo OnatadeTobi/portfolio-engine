@@ -31,7 +31,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = env.bool("DEBUG", default=False)
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-ALLOWED_HOSTS = ['127.0.0.1','portfolio-engine.pxxl.click','portfolio-engine.zeabur.app'] 
+ALLOWED_HOSTS = ['127.0.0.1','portfolio-engine.pxxl.click','portfolio-engine.zeabur.app']
 
 
 # Application definition
